@@ -1,0 +1,27 @@
+name: Dustin Monitor
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # Kører hver nat kl. 02:00 UTC
+  workflow_dispatch:       # Mulighed for manuel kørsel
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hent kode
+        uses: actions/checkout@v3
+
+      - name: Brug Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Installer afhængigheder
+        run: npm install
+
+      - name: Kør monitor
+        run: node api/monitor.js
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}

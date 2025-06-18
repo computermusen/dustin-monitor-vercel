@@ -2,7 +2,15 @@
   "emailTo": "din@adresse.dk",
   "urls": [
     "https://www.dustin.dk/product/5011254401/2100-pfsense-security-gateway",
-    "https://www.dustin.dk/product/5011259570/6100-pfsense-security-gateway-max"
+    "https://www.dustin.dk/product/5011259570/6100-pfsense-security-gateway-max",
+	"https://www.dustin.dk/product/5020018053/8300-pfsense-security-gateway-base",
+	"https://www.dustin.dk/product/5020018053/8300-pfsense-security-gateway-base",
+	"https://www.dustin.dk/product/5011318931/8200-pfsense-security-gateway-max",
+	"https://www.dustin.dk/product/5011257475/6100-pfsense-security-gateway",
+	"https://www.dustin.dk/product/5011254400/sg-1100-pfsense-security-gateway",
+	"https://www.dustin.dk/product/5011268693/2100-max-pfsense-security-gateway",
+	"https://www.dustin.dk/product/5020018661/4200-pfsense-security-gateway-max",
+	"https://www.dustin.dk/product/5020053577/8300-pfsense-security-gateway-max",
     // Tilføj alle links her
   ]
 }
